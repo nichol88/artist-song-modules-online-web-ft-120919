@@ -8,7 +8,9 @@ module Memorable
     self.all.count
   end
 end
+module ClassMethods
   def method_name
 
   end
+end
 end
