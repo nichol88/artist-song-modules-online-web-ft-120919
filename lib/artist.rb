@@ -5,7 +5,7 @@ class Artist
   attr_reader :songs
   extend Memorable
   extend Findable
-  extend Paramble
+  include Paramble
   @@artists = []
 
   def initialize
